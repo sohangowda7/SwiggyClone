@@ -15,8 +15,33 @@ list-style-type:none;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: larger;
 }
+.nav-items > ul:hover { 
+cursor: pointer;
+}
 
 .nav-items > ul > li { 
-    margin: 10px;
+   
     padding: 10px;   
+}
+.search { 
+    margin: 10px;
+}
+.res-card:hover { 
+    border: 1px solid black;
+    cursor: pointer;
+}
+.res-card { 
+   background-color: #f0f0f0;
+    width: 250px;
+    padding: 5px;
+    margin: 15px;
+}
+.res-logo { 
+    width: 100%;
+    height: 170px;
+}
+.res-container { 
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
