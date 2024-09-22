@@ -45,3 +45,6 @@ cursor: pointer;
     flex-wrap: wrap;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.filter-btn { 
+    margin: 10px;
+}
